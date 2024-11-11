@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/liuchenghao/Documents/%E4%BA%AC%E5%9F%8E%E4%B8%80%E7%81%AF/%E4%BB%A3%E7%A0%81/%E4%B8%AA%E4%BA%BA%E4%BB%A3%E7%A0%81/nextjs/dome01/src/app/test/page.tsx"],"sourcesContent":["\"use client\";\nimport Button from \"@mui/material/Button\";\nimport { useState } from \"react\";\nconst TestPage = () => {\n  const [data, setData] = useState(\"\");\n  async function getData() {\n    const res = await fetch(\"http://localhost:3000/api/test\");\n    const resData = await res.json();\n    setData(resData);\n  }\n  return (\n    <>\n      <div>This is a test page.</div>\n      <Button onClick={getData}>获取数据</Button>\n      <div>{data}</div>\n    </>\n  );\n};\nexport default TestPage;\n"],"names":[],"mappings":";;;;AAEA;AADA;;;AADA;;;AAGA,MAAM,WAAW;;IACf,MAAM,CAAC,MAAM,QAAQ,GAAG,CAAA,GAAA,6JAAA,CAAA,WAAQ,AAAD,EAAE;IACjC,eAAe;QACb,MAAM,MAAM,MAAM,MAAM;QACxB,MAAM,UAAU,MAAM,IAAI,IAAI;QAC9B,QAAQ;IACV;IACA,qBACE;;0BACE,6LAAC;0BAAI;;;;;;0BACL,6LAAC,wJAAA,CAAA,UAAM;gBAAC,SAAS;0BAAS;;;;;;0BAC1B,6LAAC;0BAAK;;;;;;;;AAGZ;GAdM;KAAA;uCAeS"}},
+    {"offset": {"line": 61, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

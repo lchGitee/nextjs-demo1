@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":["file:///Users/liuchenghao/Documents/%E4%BA%AC%E5%9F%8E%E4%B8%80%E7%81%AF/%E4%BB%A3%E7%A0%81/%E4%B8%AA%E4%BA%BA%E4%BB%A3%E7%A0%81/nextjs/dome01/src/app/api/route.ts"],"sourcesContent":["export async function GET() {\n  return Response.json({ message: \"我是服务端get返回的数据\" })\n}"],"names":[],"mappings":";;;AAAO,eAAe;IACpB,OAAO,SAAS,IAAI,CAAC;QAAE,SAAS;IAAgB;AAClD"}},
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

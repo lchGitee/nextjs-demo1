@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/liuchenghao/Documents/%E4%BA%AC%E5%9F%8E%E4%B8%80%E7%81%AF/%E4%BB%A3%E7%A0%81/%E4%B8%AA%E4%BA%BA%E4%BB%A3%E7%A0%81/nextjs/dome01/src/components/header.tsx"],"sourcesContent":["'use client'\nimport Link from \"next/link\";\nimport { useRouter } from \"next/navigation\";\nconst Header = () => {\n  const router = useRouter();\n  return (\n    <div className=\"flex justify-between container mx-auto p-10\">\n    <h2 className=\"text-3xl\" onClick={()=>router.push('/')}>Home</h2>\n    <div className=\"space-x-4\">\n      <Link href=\"/about\">aboutPage</Link>\n      <Link href=\"/test\">testPage</Link>\n    </div>\n  </div>\n  );\n};\nexport default Header;\n"],"names":[],"mappings":";;;;AACA;AACA;;;AAFA;;;AAGA,MAAM,SAAS;;IACb,MAAM,SAAS,CAAA,GAAA,qIAAA,CAAA,YAAS,AAAD;IACvB,qBACE,6LAAC;QAAI,WAAU;;0BACf,6LAAC;gBAAG,WAAU;gBAAW,SAAS,IAAI,OAAO,IAAI,CAAC;0BAAM;;;;;;0BACxD,6LAAC;gBAAI,WAAU;;kCACb,6LAAC,+HAAA,CAAA,UAAI;wBAAC,MAAK;kCAAS;;;;;;kCACpB,6LAAC,+HAAA,CAAA,UAAI;wBAAC,MAAK;kCAAQ;;;;;;;;;;;;;;;;;;AAIzB;GAXM;;QACW,qIAAA,CAAA,YAAS;;;KADpB;uCAYS"}},
+    {"offset": {"line": 77, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

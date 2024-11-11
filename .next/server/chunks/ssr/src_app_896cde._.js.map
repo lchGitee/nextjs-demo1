@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file:///Users/liuchenghao/Documents/%E4%BA%AC%E5%9F%8E%E4%B8%80%E7%81%AF/%E4%BB%A3%E7%A0%81/%E4%B8%AA%E4%BA%BA%E4%BB%A3%E7%A0%81/nextjs/dome01/src/app/favicon.ico.mjs%20%28structured%20image%20object%29"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 256, height: 256 }\n"],"names":[],"mappings":";;;AAAA;;uCACe;IAAE,KAAA,kHAAA,CAAA,UAAG;IAAE,OAAO;IAAK,QAAQ;AAAI"}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

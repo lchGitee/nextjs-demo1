@@ -1,0 +1,18 @@
+# 忽略 node_modules 文件夹
+node_modules/
+
+# 忽略所有的日志文件
+*.log
+
+# 忽略特定的配置文件
+.env
+
+# 忽略 dist 文件夹
+dist/
+
+# 忽略特定文件类型（如所有的 .tmp 文件）
+*.tmp
+
+# 忽略某个文件夹中的所有内容，但保留其中某些文件
+docs/*
+!docs/README.md

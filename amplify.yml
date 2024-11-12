@@ -4,9 +4,13 @@ applications:
       phases:
         preBuild:
           commands:
+            - echo "Loading environment variables from .env.production"
+            - export $(cat .env.production | xargs) # 加载 .env.production 文件中的变量
             - yarn install
         build:
           commands:
+           - echo "Building with environment variables:"
+            - echo $NEXT_PUBLIC_API_BASE_URL # 输出环境变量以验证加载成功
             - yarn build
       artifacts:
         baseDirectory: .next

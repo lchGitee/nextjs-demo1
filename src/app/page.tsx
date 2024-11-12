@@ -1,7 +1,7 @@
 import { use } from "react";
 async function getMassage() {
   try {
-    const response = await fetch(process.env.NEXT_PUBLIC_API_BASE_URL+"/api");
+    const response = await fetch(process.env.NEXT_PUBLIC_API_BASE_URL+"api");
     const data = await response.json();
     return data;
   } catch (e) {

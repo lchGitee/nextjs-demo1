@@ -9,13 +9,13 @@ applications:
             - yarn install
         build:
           commands:
-           - echo "Building with environment variables:"
+            - echo "Building with environment variables:"
             - echo $NEXT_PUBLIC_API_BASE_URL # 输出环境变量以验证加载成功
             - yarn build
       artifacts:
         baseDirectory: .next
         files:
-          - '**/*'
+          - "**/*"
       cache:
         paths:
           - node_modules/**/*
